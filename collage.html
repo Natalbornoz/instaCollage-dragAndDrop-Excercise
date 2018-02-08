@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Insta Collage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/main.css">
+  </head>
+
+  <body>
+    <!-- Contenedor collage  -->
+    <div id="contenedor" ondrop="drop(this, event)" ondragenter="return false" ondragover="return false">
+      <span>CONTENEDOR</span>
+    </div>
+    <!-- Galería imágenes / Elementos arrastrables -->
+
+        <!-- <img id="foto1" draggable="true" ondragstart="drag(event)" src="assets/images/candy1.jpg" width="60%"> -->
+
+
+
+    <div id="arrastrables" class="container-fluid">
+      <div class="row justify-content-center">
+        <div id="caja1" class="col draggable=" true " ondragstart="dragstart(this, event) "">
+          <img src="assets/images/candy1.jpg" width="80%" alt="">
+        </div>
+        <div id="caja2" class="col draggable=" true " ondragstart="dragstart(this, event) "">
+          <img src="assets/images/candy2.jpg" width="80%;" alt="">
+        </div>
+        <div id="caja3" class="col draggable=" true " ondragstart="dragstart(this, event) "">
+          <img src="assets/images/candy3.jpg" width="80%;" alt="">
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div id="caja4" class="col draggable=" true " ondragstart="dragstart(this, event) "">
+          <img src="assets/images/candy4.jpg" width="80%" alt="">
+        </div>
+        <div id="caja6" class="col draggable=" true " ondragstart="dragstart(this, event) "">
+          <img src="assets/images/candy5.jpg" width="80%;" alt="">
+        </div>
+        <div id="caja6" class="col draggable=" true " ondragstart="dragstart(this, event) "">
+          <img src="assets/images/candy6.jpg" width="80%;" alt="">
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="assets/js/collage.js"></script>
+  </body>
+
+</html>
