@@ -20,8 +20,6 @@ function envia(pag){
     document.form.action = 'collage.html';
         document.form.submit();
 }
-
-
 function valida(){
 var usuario = document.getElementById('usuario');
 var pass = document.getElementById("password");
