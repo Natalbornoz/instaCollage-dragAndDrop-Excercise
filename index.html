@@ -11,16 +11,24 @@
 
   <body>
     <!-- Inicio Login -->
-    <div class="container">
+    <form class="container" name="form" method="post">
       <div class="row justify-content-center">
         <div id="ingreso" class="col-7">
           <img src="assets/images/logo-instagram.png" width="90%;" alt="">
-          <input placeholder="Usarname" type="text" name="" value="">
-          <input placeholder="Password" type="text" name="" value="">
-          <button type="button" name="button">Iniciar sesión</button>
+          <div class="row justify-content-center">
+            <div class="col-xs-12" id="nombre1">
+              <input id="usuario" type="text" placeholder="Nombre Usuario">
+            </div>
+            <div class="col-xs-12" id="pass1">
+              <input id="password" type="password" placeholder="Contraseña">
+            </div>
+            <div class="col-xs-12 col-btn">
+              <input type="button" id="send" value="Acceder" onclick="valida();">
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </form>
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>

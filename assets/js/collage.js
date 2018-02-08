@@ -11,3 +11,5 @@ function drop(ev) {
     var data = ev.dataTransfer.getData("text");
     ev.target.appendChild(document.getElementById(data));
 }
+
+// Referencia : https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_draganddrop2
