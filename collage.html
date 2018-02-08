@@ -12,17 +12,19 @@
 
   <body>
     <!-- Contenedor collage  -->
-    <div id="contenedor container-fluid" ondrop="drop(this, event)" ondragenter="return false" ondragover="return false">
-      <!-- PRUEBA -->
-      <div class="row">
-        <div class="col">
-          <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
-            <img src="assets/images/candy1.jpg" draggable="true" ondragstart="drag(event)" id="drag1" width="90" height="90">
-          </div>
-          <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-        </div>
+    <!-- <div id="contenedor container-fluid" ondrop="drop(this, event)" ondragenter="return false" ondragover="return false"> -->
+    <!-- PRUEBA -->
+    <div id="contenedor" class="row justify-content-center no-gutters container-fluid">
+      <div class="col-xs-auto">
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <!-- <div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)"></div> -->
+        <div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
       </div>
-      <!-- PRUEBA -->
+    </div>
+    <!-- PRUEBA -->
     </div>
 
     <!-- Texto separador -->
@@ -37,9 +39,6 @@
 
 
     <!-- Galería imágenes / Elementos arrastrables -->
-
-    <!-- <img id="foto1" draggable="true" ondragstart="drag(event)" src="assets/images/candy1.jpg" width="60%"> -->
-
     <div class="container-fluid gallery">
       <div class="row no-gutters">
         <div class="col-3">
@@ -68,24 +67,38 @@
             <img id="img8" ondragstart="drag(event)" draggable="true" class="img-fluid" src="assets/images/candy8.jpg" alt="">
           </div>
         </div>
-
+        <div class="row no-gutters">
+          <div class="col-3">
+            <img id="img9" ondragstart="drag(event)" draggable="true" class="img-fluid" src="assets/images/candy9.jpg" alt="">
+          </div>
+          <div class="col-3">
+            <img id="img10" ondragstart="drag(event)" draggable="true" class="img-fluid" src="assets/images/candy10.jpg" alt="">
+          </div>
+          <div class="col-3">
+            <img id="img11" ondragstart="drag(event)" draggable="true" class="img-fluid" src="assets/images/candy11.jpg" alt="">
+          </div>
+          <div class="col-3">
+            <img id="img12" ondragstart="drag(event)" draggable="true" class="img-fluid" src="assets/images/candy12.jpg" alt="">
+          </div>
+        </div>
       </div>
 
       <!-- Links inferiores -->
-      <div id="links" class="row justify-content-center">
-        <div class="col">
-          <p>CAMERA ROLY</p>
-        </div>
-        <div class="col">
-          <p>FACES</p>
-        </div>
-        <div class="col">
-          <p>RECENTS</p>
+      <div id="links" class="container-fluid justify-content-center">
+        <div class="row">
+          <div class="col text-center">
+            <a href="#">CAMERA ROLL</a>
+          </div>
+          <div class="col text-center">
+            <a href="#">FACES</a>
+          </div>
+          <div class="col text-center">
+            <a href="#">RECENTS</a>
+          </div>
         </div>
       </div>
 
       <!-- Scripts -->
-
       <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>

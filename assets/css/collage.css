@@ -2,11 +2,6 @@ body {
   background: gray;
 }
 
-#contenedor {
-  text-align: center;
-  background-color: blue;
-}
-
 .candy img {
   width: 80%;
 }
@@ -16,6 +11,10 @@ body {
   color: #FFF;
   font-size: 1.8em;
   padding-top: 0.7em;
+}
+
+#links a {
+  text-decoration: none;
 }
 
 #links {
@@ -30,11 +29,22 @@ body {
   padding-right: 1em;
 }
 
-#div1, #div2 {
+#div1, #div2, #div3, #div4, #div5 {
   float: left;
   width: 100px;
   height: 100px;
-  margin: 10px;
-  padding: 10px;
+  /* margin: 10px;
+  padding: 10px; */
   border: 1px solid black;
+}
+
+#div6 {
+  float: left;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+#contenedor {
+  text-align: center;
 }
