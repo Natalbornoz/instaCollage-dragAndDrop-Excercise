@@ -12,7 +12,7 @@
 
   <body>
     <!-- Contenedor collage  -->
-    <div id="contenedor" ondrop="drop(this, event)" ondragenter="return false" ondragover="return false">
+    <div id="contenedor container-fluid" ondrop="drop(this, event)" ondragenter="return false" ondragover="return false">
       <!-- PRUEBA -->
       <div class="row">
         <div class="col">
@@ -40,53 +40,57 @@
 
     <!-- <img id="foto1" draggable="true" ondragstart="drag(event)" src="assets/images/candy1.jpg" width="60%"> -->
 
-
-
-
-    <div id="arrastrables" class="container-fluid">
-      <div class="row justify-content-center">
-        <div id="caja1" class="col candy draggable=" true " ondragstart="dragstart(this, event) "">
-          <img src="assets/images/candy1.jpg" alt="">
+    <div class="container-fluid gallery">
+      <div class="row no-gutters">
+        <div class="col-3">
+          <img id="img1" ondragstart="drag(event)" draggable="true" class="img-fluid" src="assets/images/candy1.jpg" alt="">
         </div>
-        <div id="caja2" class="col candy draggable=" true " ondragstart="dragstart(this, event) "">
-          <img src="assets/images/candy2.jpg" alt="">
+        <div class="col-3">
+          <img id="img2" ondragstart="drag(event)" draggable="true" class="img-fluid" src="assets/images/candy2.jpg" alt="">
         </div>
-        <div id="caja3" class="col candy draggable=" true " ondragstart="dragstart(this, event) "">
-          <img src="assets/images/candy3.jpg" alt="">
+        <div class="col-3">
+          <img id="img3" ondragstart="drag(event)" draggable="true" class="img-fluid" src="assets/images/candy3.jpg" alt="">
+        </div>
+        <div class="col-3">
+          <img id="img4" ondragstart="drag(event)" draggable="true" class="img-fluid" src="assets/images/candy4.jpg" alt="">
+        </div>
+        <div class="row no-gutters">
+          <div class="col-3">
+            <img id="img5" ondragstart="drag(event)" draggable="true" class="img-fluid" src="assets/images/candy5.jpg" alt="">
+          </div>
+          <div class="col-3">
+            <img id="img6" ondragstart="drag(event)" draggable="true" class="img-fluid" src="assets/images/candy6.jpg" alt="">
+          </div>
+          <div class="col-3">
+            <img id="img7" ondragstart="drag(event)" draggable="true" class="img-fluid" src="assets/images/candy7.jpg" alt="">
+          </div>
+          <div class="col-3">
+            <img id="img8" ondragstart="drag(event)" draggable="true" class="img-fluid" src="assets/images/candy8.jpg" alt="">
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Links inferiores -->
+      <div id="links" class="row justify-content-center">
+        <div class="col">
+          <p>CAMERA ROLY</p>
+        </div>
+        <div class="col">
+          <p>FACES</p>
+        </div>
+        <div class="col">
+          <p>RECENTS</p>
         </div>
       </div>
-      <div class="row justify-content-center">
-        <div id="caja4" class="col candy draggable=" true " ondragstart="dragstart(this, event) "">
-          <img src="assets/images/candy4.jpg" alt="">
-        </div>
-        <div id="caja6" class="col candy draggable=" true " ondragstart="dragstart(this, event) "">
-          <img src="assets/images/candy5.jpg" alt="">
-        </div>
-        <div id="caja6" class="col candy draggable=" true " ondragstart="dragstart(this, event) "">
-          <img src="assets/images/candy6.jpg" alt="">
-        </div>
-      </div>
-    </div>
-    <!-- Links inferiores -->
-    <div id="links" class="row justify-content-center">
-      <div class="col">
-        <p>CAMERA ROLY</p>
-      </div>
-      <div class="col">
-        <p>FACES</p>
-      </div>
-      <div class="col">
-        <p>RECENTS</p>
-      </div>
-    </div>
 
-    <!-- Scripts -->
+      <!-- Scripts -->
 
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-    <script src="assets/js/collage.js"></script>
+      <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+      <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+      <script src="assets/js/collage.js"></script>
   </body>
 
 </html>
