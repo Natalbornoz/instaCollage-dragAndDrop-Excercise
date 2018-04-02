@@ -1,15 +1,20 @@
+
 body {
-  background: gray;
+  background:#FFF;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .candy img {
   width: 80%;
 }
 
+.insta {
+  padding-right: 2em;
+}
 #photo-booth {
-  background-color: #1D1F20;
+  background-color: #7b4397;
   color: #FFF;
-  font-size: 1.8em;
+  font-size: 1em;
   padding-top: 0.7em;
 }
 
@@ -18,32 +23,35 @@ body {
 }
 
 #links {
-  background-color: #1D1F20;
-  color: #FFF;
-  font-size: 1.5em;
+  background-color:  #7b4397;
+  font-size: 1em;
   padding-top: 0.7em;
   text-align: center;
+}
+
+#lins, p {
+  color: #FFF;
 }
 
 .photo-text {
   padding-right: 1em;
 }
 
-#div1, #div2, #div3, #div4, #div5 {
+#div1, #div2, #div3, #div4, #div5, #div6, #div7, #div8 {
   float: left;
   width: 100px;
   height: 100px;
   /* margin: 10px;
   padding: 10px; */
-  border: 1px solid black;
+  border: 1px solid #7b4397;
 }
 
-#div6 {
+/* #div6 {
   float: left;
   width: 200px;
   height: 200px;
   border: 1px solid black;
-}
+} */
 
 #contenedor {
   text-align: center;

@@ -1,11 +1,117 @@
+
 body {
-  background: linear-gradient(to bottom right, #010E42, #CBE8F3);
+  background: #7b4397;  
+  background: -webkit-linear-gradient(to left, #dc2430, #7b4397);
+  background: linear-gradient(to left, #dc2430, #7b4397);
+
 }
+
+.idioma {
+  padding-top: 3em;
+}
+.idioma, .ayuda, .face, .inicio {
+  color:#FFF;
+}
+
+input{
+  background-color: rgba(255, 255, 255, 0.1);
+  outline: none;
+  border: none;
+  width: 100%;
+  line-height: 50px;
+  border-radius: 5px;
+  padding-left: 15px;
+  margin-bottom: 3em;
+  border-radius: 0.3em;
+  color: #FFF;
+}
+
+input[placeholder]{      
+  color: #FFF;
+}
+
+input::placeholder {
+  color: #FFF;
+}
+
 
 #ingreso {
   text-align: center;
 }
 
-input {
-  border-radius: 0.5em;
+#send{
+  text-decoration: none;
+  color: #fff;
+  width: 100%;
+  border: 0.1px solid white;
+  line-height: 40px;
+  background-color: #7b4397;
+  margin-bottom: 20px;
+  padding-left: 3em;
+  padding-right: 3em;
 }
+
+
+
+#send:hover {
+  background-color:black;
+  color: #FFF
+}
+
+
+
+/*
+verde: #45c48e;
+rosa: #d27940;
+*/
+
+/* section{
+  background: #3D7EAA;
+  background: -webkit-linear-gradient(to right top, #d27940, #45c48e); 
+  background: linear-gradient(to right top, #d27940, #45c48e);
+  height: 100vh;
+  padding-top: 15px;
+}
+
+.insta{
+  padding-top: 60px;
+}
+
+.blanco{
+  color: #fff;
+}
+
+input{
+  background-color: rgba(255, 255, 255, 0.1);
+  outline: none;
+  border: none;
+  width: 100%;
+  line-height: 50px;
+  margin: 10px 0;
+  border-radius: 5px;
+  padding-left: 15px;
+}
+
+
+input[placeholder]{      
+  color: #fff;
+}
+
+input::placeholder {
+  color: #FFF;
+}
+
+.botoncito{
+  text-decoration: none;
+  color: #fff;
+  width: 100%;
+  border: 1px solid white;
+  line-height: 40px;
+  border-radius: 5px;
+  background-color: transparent;
+  margin-bottom: 20px;
+}
+
+.col-btn{
+  width: 100%;
+} */
